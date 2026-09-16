@@ -1,1 +1,14 @@
+LeetCode #881 — Boats to Save People
 
+Exact filename: BoatsToSavePeople.java
+
+Algorithm
+Sort the people array.
+Keep left at the lightest person and right at the heaviest.
+Every boat must take the heaviest remaining person.
+If the lightest + heaviest fit within limit, put them together.
+Otherwise, the heaviest person goes alone.
+Count every boat used.
+
+Time: O(n log n)
+Space: O(log n) for sorting
