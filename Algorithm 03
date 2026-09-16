@@ -1,1 +1,15 @@
+Subarrays with K Different Integers — #992
+Key Idea
 
+Instead of directly counting exactly K distinct values:
+
+Exactly(K) = AtMost(K) - AtMost(K - 1)
+Algorithm
+
+For atMost(k):
+
+Expand the right pointer.
+Count each number using a HashMap.
+If distinct values exceed k, move left.
+Add right - left + 1.
+Calculate the difference between atMost(K) and atMost(K-1).
