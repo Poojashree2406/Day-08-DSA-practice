@@ -1,1 +1,9 @@
+2. Backspace String Compare — #844
+Algorithm
 
+Use two pointers from the end.
+
+# means the previous character should be skipped.
+Compare the next valid characters from both strings.
+If they differ, return false.
+If both strings finish together, return true.
