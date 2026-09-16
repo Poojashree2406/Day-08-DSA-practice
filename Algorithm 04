@@ -1,1 +1,12 @@
+Longest Continuous Subarray With Absolute Diff ≤ Limit — #1438
+Algorithm
 
+Use two monotonic deques:
+
+maxDeque → maintains maximum
+minDeque → maintains minimum
+Add each new element to both deques.
+If max - min > limit, move left.
+Remove expired indices.
+Track the longest valid window.
+Java
