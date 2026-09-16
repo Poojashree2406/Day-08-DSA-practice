@@ -1,1 +1,16 @@
+LeetCode #1208 — Get Equal Substrings Within Budget
 
+Exact filename: GetEqualSubstringsWithinBudget.java
+
+Algorithm
+
+Use a sliding window.
+
+Start left = 0.
+Move right through both strings.
+Calculate the cost of changing s[right] into t[right].
+Add the cost to the current window.
+If total cost exceeds maxCost, move left forward and remove its cost.
+Record the largest valid window.
+
+This gives O(n) time and O(1) extra space.
