@@ -1,1 +1,10 @@
+Subarray Product Less Than K — #713
+Algorithm
 
+Use a variable-size sliding window.
+
+Set left = 0.
+Multiply the current element into product.
+While product ≥ k, divide by nums[left] and move left.
+Every subarray ending at right is valid from left to right.
+Add right - left + 1 to the answer.
