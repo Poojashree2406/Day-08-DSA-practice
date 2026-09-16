@@ -1,1 +1,13 @@
+Test Cases
+Input: nums = [10,5,2,6], k = 100
+Output: 8
 
+Input: nums = [1,2,3], k = 0
+Output: 0
+
+Input: nums = [1,1,1], k = 2
+Output: 6
+
+Filename: SubarrayProductLessThanK.java
+
+Complexity: O(n) time.
